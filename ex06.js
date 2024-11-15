@@ -2,7 +2,7 @@ function getReduction(price, age) {
 	if (age > 25) {
 		return price * 1.0;
 	} else if (age <= 25 && age > 18) {
-		return price * 0.3;
+		return price * 0.7;
 	} else if (age <= 18 && age >= 5) {
 		return price * 0.5;
 	} else if (age < 5) {
